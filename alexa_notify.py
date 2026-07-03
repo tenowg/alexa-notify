@@ -34,7 +34,7 @@ def _send_notification(message, access_code):
             json={"notification": message, "accessCode": access_code},
             timeout=10,
         )
-        if resp.status_code == 200:
+        if resp.ok:
             print(f"[Alexa Notify] Sent: {message}")
         else:
             print(f"[Alexa Notify] Failed ({resp.status_code}): {resp.text}")
