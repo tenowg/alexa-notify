@@ -53,13 +53,13 @@ Choose one of these three methods (checked in order):
 Set the environment variable before starting ComfyUI:
 ```bash
 # Linux/macOS
-export ALEXA_NOTIFY_ACCESS_CODE="amzn1.ask.account.YOUR_CODE_HERE"
+export ALEXA_NOTIFY_ACCESS_CODE="nmac.YOUR_CODE_HERE"
 
 # Windows (PowerShell)
-$env:ALEXA_NOTIFY_ACCESS_CODE="amzn1.ask.account.YOUR_CODE_HERE"
+$env:ALEXA_NOTIFY_ACCESS_CODE="nmac.YOUR_CODE_HERE"
 
 # Windows (Command Prompt)
-set ALEXA_NOTIFY_ACCESS_CODE=amzn1.ask.account.YOUR_CODE_HERE
+set ALEXA_NOTIFY_ACCESS_CODE=nmac.YOUR_CODE_HERE
 ```
 
 ## Usage
